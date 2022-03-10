@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diseñador Juanjo García</title>
+    <link rel="preload" href="CSS/style.CSS" as="style">
+    <link href="CSS/style.CSS" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Juanjo García Mago de la programación</h1>
+        <h1>Juanjo García <span>Mago de la programación</span></h1>
     </header>
 
     <nav>
@@ -89,6 +91,33 @@
 
     <section>
         <h2>Contacto</h2>
+
+        <form>
+            <fieldset>
+                <legend>Contáctame rellenando los siguientes campos</legend>
+
+                <div>
+                    <label>Nombre</label>
+                    <input type="text" placeholder="Nombre">
+                </div>
+                
+                <div>
+                    <label>Teléfono</label>
+                    <input type="tel" placeholder="Tu teléfono">
+                </div>
+
+                <div>
+                    <label>Email</label>
+                    <input type="email" placeholder="email">
+                </div>
+                
+                <div>
+                    <label>Mensaje</label>
+                    <textarea></textarea>
+                    <input type="submit" value="enviar">
+                </div>
+            </fieldset>
+        </form>
     </section>
     
     <footer>
