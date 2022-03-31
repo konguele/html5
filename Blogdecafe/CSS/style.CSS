@@ -25,6 +25,7 @@ body{
 .contenedor{
     max-width: 120rem;
     width: 90%;
+    width: min(90%, 120rem);
     margin: 0 auto;
 }
 a{
@@ -75,9 +76,13 @@ img{
 }
 @media (min-width: 768px) {
     .header__texto{
-        margin-top: 15ren;
+        margin-top: 15rem;
     }
 }
+.barra{
+    padding-top: 4rem;
+}
+
 @media (min-width: 768px) {
     .barra{
         display: flex;
@@ -164,4 +169,10 @@ img{
 .widget-curso__info,
 .widget-curso__label{
     font-size: 2rem;
+}
+
+.footer{
+    background-color: var(--negro);
+    padding-bottom: 3rem 0;
+    margin-top: 4rem;
 }
