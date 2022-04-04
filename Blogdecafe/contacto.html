@@ -29,16 +29,25 @@
         </div>
     </header>
     <main class="contenedor">
-        <h3 class="centrar-text">Sobre Nosotros</h3>
-        <div class="sobre-nosotros">
-            <div class="sobre-nosotros__imagen">
-                <img src="img/nosotros.jpg" alt="imagen nosotros">
+        <h3 class="centrar-text">Contacto</h3>
+        <div class="contacto-bg"></div>
+        <form class="formulario">
+            <div class="campo">
+                <label class="campo__label" for="nombre">Nombre</label>
+                <input class="campo__field" type="text" placeholder="Tu nombre" id="nombre">
             </div>
-            <div class="sobre-nosotros__texto">
-                <p>Suspendisse et feugiat massa. Aliquam sagittis a ante et porttitor. Sed ligula elit, porta et aliquet quis, euismod ac ex. Mauris facilisis, ligula vel consectetur molestie, nisi mauris fermentum nisl, sed fermentum enim quam at sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed molestie convallis mi ac commodo. Aliquam ultrices non libero vel efficitur. Nulla mi risus, pretium at molestie ac, convallis eget ligula. Nulla facilisi. Praesent imperdiet eget mi eget hendrerit. Donec malesuada, tortor vitae sagittis semper, libero dolor tincidunt dui, laoreet faucibus leo dolor non elit. Aenean nec lobortis nunc, sed ultrices leo. Mauris facilisis nec enim ac iaculis.</p>
-                <p>Vivamus at velit sapien. Phasellus venenatis nisi eu accumsan imperdiet. Mauris eleifend, ex sit amet eleifend interdum, erat enim malesuada arcu, vel semper diam metus vitae felis. Pellentesque eget magna ac orci tristique volutpat. Duis rutrum lacus et urna scelerisque elementum. Donec at varius sem, at pellentesque purus. Curabitur a ante ultrices, imperdiet metus ac, porttitor magna. Pellentesque vitae ex a augue tempor fermentum. </p>
+            <div class="campo">
+                <label for="email">Email</label>
+                <input class="campo__field" type="email" placeholder="Tu email" id="email">
             </div>
-        </div>
+            <div class="campo">
+                <label class="campo__label" for="mensaje">Mensaje</label>
+                <textarea class="campo__field--textarea campo__field" name="Tu mensaje" id="mensaje"></textarea>
+            </div>
+            <div class="campo">
+                <input type="submit" value="Enviar" class="boton boton--primario">
+            </div>
+        </form>
     </main>
 
     <footer class="footer">
